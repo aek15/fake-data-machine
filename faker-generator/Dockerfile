@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y git
 RUN git clone https://github.com/aek15/fake-data-machine.git .
 
 # Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r faker-generator/requirements.txt
 
 # Make port 8501 available to the world outside this container
 EXPOSE 8501
