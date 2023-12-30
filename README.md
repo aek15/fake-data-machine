@@ -17,7 +17,7 @@ This application is designed to generate files with dummy data for database test
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/aek15/fake-data-machine.git
-   cd fake-data-machine
+   cd fake-data-machine/faker-generator
     ```
 
 2. **Build the Docker Image**

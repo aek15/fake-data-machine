@@ -13,8 +13,11 @@ RUN git clone https://github.com/aek15/fake-data-machine.git .
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r faker-generator/requirements.txt
 
+# Make the start.sh file executable
+RUN chmod +x start.sh
+
 # Make port 8501 available to the world outside this container
 EXPOSE 8501
 
-# Run app.py when the container launches
-CMD ["streamlit", "run", "faker-generator/app.py"]
+# Run the start script when the container launches
+CMD ["./faker-generator/start.sh"]
