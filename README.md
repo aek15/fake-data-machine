@@ -16,17 +16,17 @@ This application is designed to generate files with dummy data for database test
 ### Steps
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-github-username/dummy-data-generator.git
-   cd dummy-data-generator
+   git clone https://github.com/aek15/fake-data-machine.git
+   cd fake-data-machine
     ```
 
 2. **Build the Docker Image**
    ```bash
-   docker build -t dummy-data-generator .
+   docker build -t fake-data-machine .
     ```
 3. **Run the Docker Container**
    ```bash
-   docker run -p 8501:8501 -v ${PWD}/generated_files:/usr/src/app/generated_files dummy-data-generator
+   docker run -p 8501:8501 -v ${PWD}/generated_files:/usr/src/app/generated_files fake-data-machine
     ```
 
 After running the above command, the application should be accessible at http://localhost:8501.
