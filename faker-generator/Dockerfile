@@ -20,4 +20,5 @@ RUN chmod +x faker-generator/start.sh
 EXPOSE 8501
 
 # Run the start script when the container launches
-CMD ["./faker-generator/start.sh"]
+#CMD ["./faker-generator/start.sh"]
+ENTRYPOINT ["streamlit", "run", "faker-generator/app.py", "--server.port=8501", "--server.address=127.0.0.1"]
