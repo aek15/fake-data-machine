@@ -7,7 +7,7 @@ import random
 faker = Faker()
 
 def generate_ddl(table_name, columns):
-    ddl = f"CREATE TABLE {table_name} (\n"
+    ddl = f"CREATE OR REPLACE TABLE {table_name} (\n"
     ddl += ",\n".join([f"{col['name']} {col['type']}" for col in columns])
     ddl += "\n);"
     return ddl
