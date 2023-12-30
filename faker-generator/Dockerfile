@@ -14,7 +14,7 @@ RUN git clone https://github.com/aek15/fake-data-machine.git .
 RUN pip install --no-cache-dir -r faker-generator/requirements.txt
 
 # Make the start.sh file executable
-RUN chmod +x ./faker-generator/start.sh
+RUN chmod +x faker-generator/start.sh
 
 # Make port 8501 available to the world outside this container
 EXPOSE 8501
