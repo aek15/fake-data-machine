@@ -6,7 +6,10 @@ This application is designed to generate files with dummy data for database test
 - Define table structure including name and columns with types.
 - Generate SQL Data Definition Language (DDL) statements.
 - Specify the number of rows and files for dummy data generation.
-- Download generated dummy data files in CSV format.
+- Download generated dummy data files in desired format format.
+  
+<img width="550" alt="Screenshot 2024-01-04 at 08 42 41" src="https://github.com/aek15/fake-data-machine/assets/17871914/dd067c4b-d95e-41b2-a6e2-83f218883c7d">
+
 
 ## Installation
 
