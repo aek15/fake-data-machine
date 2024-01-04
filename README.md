@@ -45,8 +45,8 @@ For each column, provide a name and select a data type.
 Click on the "Generate DDL" button to view the SQL DDL statement for the specified table structure.
 
 4. **Generating Dummy Data Files**  
-Enter the desired number of rows per file and the total number of files.
-Click the "Generate Files" button to create CSV files with dummy data.
+Enter the desired number of rows per file, the total number of files, and file format
+Click the "Generate Files" button to create files with dummy data.
 
 5. **Downloading Generated Files**  
 After generating files, click the "List Generated Files" button.
